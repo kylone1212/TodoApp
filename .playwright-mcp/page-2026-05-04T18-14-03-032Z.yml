@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]: タスク管理
+      - heading "静" [level=1] [ref=e6]
+      - paragraph [ref=e7]: 2026年5月5日火曜日
+      - generic [ref=e14]:
+        - generic [ref=e15]: 残り 2 件
+        - generic [ref=e17]: 完了 1 件
+    - generic [ref=e8]:
+      - textbox "新しいタスク" [ref=e9]:
+        - /placeholder: 新しいタスクを入力...
+      - button "タスクを追加" [disabled] [ref=e10]:
+        - generic [ref=e11]: ＋
+        - text: 追加
+    - list "タスク一覧" [ref=e19]:
+      - paragraph [ref=e54]: 未完了
+      - listitem [ref=e46]:
+        - button "タスクを完了にする" [ref=e47] [cursor=pointer]
+        - generic [ref=e48]: レポートを作成する
+        - button "タスクを削除" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+      - listitem [ref=e38]:
+        - button "タスクを完了にする" [ref=e39] [cursor=pointer]
+        - generic [ref=e40]: スーパーで買い物をする
+        - button "タスクを削除" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+      - paragraph [ref=e56]: 完了済み
+      - listitem [ref=e57]:
+        - button "タスクを未完了にする" [pressed] [ref=e58] [cursor=pointer]:
+          - img [ref=e59]
+        - generic [ref=e61]: 散歩
+        - button "タスクを削除" [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+    - contentinfo [ref=e12]:
+      - paragraph [ref=e13]: 静 — シンプルなタスク管理
+  - alert [ref=e28]
+  - button "Open Next.js Dev Tools" [ref=e34] [cursor=pointer]:
+    - img [ref=e35]
